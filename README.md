@@ -11,7 +11,11 @@ Light Table plugin for showing splash screen instread of LT's welcome screen.
 
  * user.behaviors
 ```clojure
-:app [(:lt.plugins.splash/show-splash "/tmp/splash.clj")]
+{
+  :+ {:app [(:lt.plugins.splash/show-splash "/tmp/splash.clj")]}
+
+  :- {:app [:lt.objs.intro/show-intro]}
+  }
 ```
 
 ### License
