@@ -1,0 +1,5 @@
+{:name      "Splash"
+ :author    "uochan"
+ :source    "https://github.com/liquidz/splash"
+ :desc      "Sample plugin"
+ :behaviors "splash.behaviors"}
